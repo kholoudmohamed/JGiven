@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id "com.tngtech.jgiven.gradle-plugin" version "0.17.1"
+}
+
+group 'SubsidiePortal'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.4.0'
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.4.0'
+
+
+    // https://mvnrepository.com/artifact/com.tngtech.jgiven/jgiven-junit
+    //compile group: 'com.tngtech.jgiven', name: 'jgiven-junit', version: '0.17.1'
+
+    // https://mvnrepository.com/artifact/com.tngtech.jgiven/jgiven-junit5
+    compile group: 'com.tngtech.jgiven', name: 'jgiven-junit5', version: '0.17.1'
+
+
+    // https://mvnrepository.com/artifact/com.tngtech.jgiven/jgiven-core
+    compile group: 'com.tngtech.jgiven', name: 'jgiven-core', version: '0.17.1'
+    
+    // https://mvnrepository.com/artifact/com.tngtech.jgiven/jgiven-html5-report
+    compile group: 'com.tngtech.jgiven', name: 'jgiven-html5-report', version: '0.17.1'
+
+    // https://mvnrepository.com/artifact/com.tngtech.jgiven/jgiven-gradle-plugin
+    compile group: 'com.tngtech.jgiven', name: 'jgiven-gradle-plugin', version: '0.17.1'
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.141.59'
+
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.141.59'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.141.59'
+
+
+}
+test{
+    useJUnitPlatform()
+    
+}
+test.finalizedBy(jgivenTestReport)
+
