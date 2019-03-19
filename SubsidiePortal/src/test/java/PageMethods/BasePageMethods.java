@@ -75,6 +75,9 @@ public class BasePageMethods {
 
     public static void ClickOnLastPageLinkFromPagingPanel()
     {
-        BasePageMap.PagesLinks.get(BasePageMap.PagesLinks.size()-1).click();
+        int index = BasePageMap.PagesLinks.size()-2;
+        System.out.println(index);
+        BasePageMap.PagesLinks.get(index).click();
+        System.out.println(index);
     }
 }

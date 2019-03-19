@@ -26,7 +26,7 @@ public class ApplicationApprovedScenarios extends BaseTest{
                 .and().open_toggle_and_choose_option("Assign to Me");
         then().current_task_should_have_a_correct_assigned_to_value()
                 .and().task_state_should_be("ID toewijzen FSO");
-        when().open_toggle_and_choose_option("NAAR VT")
+        when().open_toggle_and_choose_option("Naar VT")
                 .and().close_current_tab_and_return_to_first_one()
 
         // VT makes an advice and forward to coordinator

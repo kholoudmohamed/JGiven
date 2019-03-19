@@ -23,7 +23,7 @@ public class ApplicationRejectedScenarios extends BaseTest {
                 .and().admin_impersonate_user_with_name("Jorik Tuinman")
                 .and().open_recent_notification()
                 .and().open_toggle_and_choose_option("Assign to Me")
-                .and().open_toggle_and_choose_option("NAAR VT")
+                .and().open_toggle_and_choose_option("Naar VT")
                 .and().close_current_tab_and_return_to_first_one()
 
         // VT makes an advice and forward to coordinator

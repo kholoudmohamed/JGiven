@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Helpers {
     private static PropertyReader data = new PropertyReader();
@@ -62,4 +63,16 @@ public class Helpers {
     public static String CaptureScreenShot(WebDriver webDriver) {
         return ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BASE64);
     }
+
+    public static List<String> GetListOfStringFromListOfElements(List<WebElement> elements)
+    {
+        List<String> stringsList = new ArrayList<>(elements.size());
+        for (WebElement element : elements) {
+            stringsList.add(element.getText());
+        }
+        return stringsList;
+    }
+
+
+
 }

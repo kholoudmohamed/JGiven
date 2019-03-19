@@ -1,11 +1,16 @@
 package PageMethods;
 
+import Actions.ThenSomeOutcome;
 import PageElements.WorkFlowTasksPageMap;
 import Utilities.Helpers;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+
+import java.util.List;
 
 public class WorkFlowTasksPageMethods extends BasePageMethods{
     // Methods
@@ -24,18 +29,24 @@ public class WorkFlowTasksPageMethods extends BasePageMethods{
 
 
         int size= WorkFlowTasksPageMap.DropDownToggleItems.size();
-        //System.out.println("Size of kaza is "+size);
-        int intendedIndex = 0;
-        for(int i=0;i<size;i++)
-        {
-            String elementText = WorkFlowTasksPageMap.DropDownToggleItems.get(i).getText();
-            if (elementText.equals(desiredOption))
-            {
-                intendedIndex=i;
-                break;
+        List<String> dropDownItems = Helpers.GetListOfStringFromListOfElements(WorkFlowTasksPageMap.DropDownToggleItems);
+
+        if (dropDownItems.contains(desiredOption)) {
+            int intendedIndex;
+            for (int i = 0; i < size; i++) {
+                String elementText = WorkFlowTasksPageMap.DropDownToggleItems.get(i).getText();
+                if (elementText.equals(desiredOption)) {
+                    intendedIndex = i;
+                    WorkFlowTasksPageMap.DropDownToggleItems.get(intendedIndex).click();
+                    break;
+                }
             }
         }
-        WorkFlowTasksPageMap.DropDownToggleItems.get(intendedIndex).click();
+        else {
+            System.out.println(dropDownItems);
+            Assertions.fail("Desired option "+desiredOption+" is not available in the current list");
+        }
+
     }
 
     public static void ClickOnRightDotsToggle(WebDriver webDriver)
