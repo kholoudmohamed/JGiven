@@ -36,4 +36,17 @@ public class HomePageMethods extends BasePageMethods{
     {
         HomePageMap.AvatarNotifications.click();
     }
+
+    public static void NavigateToSubsidieDemoHome(WebDriver webDriver) {
+        webDriver.get("https://subsidie-demo.test.worth.systems");
+    }
+
+    public static void ClickOnLoggedInUsernameLink()
+    {
+        HomePageMap.LoggedInUserNameLink.click();
+    }
+    public static void ClickOnLogoutLink()
+    {
+        HomePageMap.LogOutLink.click();
+    }
 }

@@ -24,4 +24,10 @@ public class GivenSomeState extends Stage<GivenSomeState> {
         return self();
     }
 
+    public GivenSomeState user_navigated_to_subsidie_demo_home_page(){
+        HomePageMethods.NavigateToSubsidieDemoHome(webDriver);
+
+        return self();
+    }
+
 }

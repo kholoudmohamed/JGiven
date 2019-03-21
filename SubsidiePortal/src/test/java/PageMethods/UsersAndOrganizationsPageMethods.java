@@ -34,4 +34,53 @@ public class UsersAndOrganizationsPageMethods extends BasePageMethods{
         Helpers.waitForLoad(webDriver);
 
     }
+
+    public static void FillinNewUserInfoAndSubmit(String userName, String emailAddress, String firstName, String lastName)
+    {
+        UsersAndOrganizationsPageMap.NewUser_Username.sendKeys(userName);
+        UsersAndOrganizationsPageMap.NewUser_Email.sendKeys(emailAddress);
+        UsersAndOrganizationsPageMap.NewUser_Firstname.sendKeys(firstName);
+        UsersAndOrganizationsPageMap.NewUser_Lastname.sendKeys(lastName);
+        UsersAndOrganizationsPageMap.NewUser_SubmitBtn.click();
+    }
+
+
+    public static void OpenUserWithName(WebDriver webDriver,String UserName) {
+        int UsersListSize = UsersAndOrganizationsPageMap.UsersNameList.size();
+        String ActualUsername = "";
+        for (int i=0;i<UsersListSize ;i++)
+        {
+            ActualUsername=UsersAndOrganizationsPageMap.UsersNameList.get(i).getText();
+            if (ActualUsername.equals(UserName))
+            {
+                UsersAndOrganizationsPageMap.UsersNameList.get(i).click();
+                break;
+            }
+        }
+        Helpers.waitForLoad(webDriver);
+
+    }
+
+
+    // Temp methods
+    public static void Navigate1(WebDriver webDriver)
+    {
+        webDriver.get("https://subsidie-demo.test.worth.systems/group/control_panel/manage?p_p_id=com_liferay_users_admin_web_portlet_UsersAdminPortlet&p_p_lifecycle=0&p_p_state=maximized&p_v_l_s_g_id=20126");
+    }
+
+    public static void ClickOnAddBtn() {
+        UsersAndOrganizationsPageMap.AddBtn.click();
+    }
+
+    public static void ClickOnPasswordTabLink() {
+        UsersAndOrganizationsPageMap.UserDetails_PasswordTabLink.click();
+    }
+
+    public static void FillInPasswordAndSubmit(WebDriver webDriver,String password) {
+        UsersAndOrganizationsPageMap.UserDetails_Passwordfield.sendKeys(password);
+        UsersAndOrganizationsPageMap.UserDetails_ConfirmPasswordfield.sendKeys(password);
+        UsersAndOrganizationsPageMap.UserDetails_SubmitPasswordBtn.click();
+        Helpers.waitForLoad(webDriver);
+
+    }
 }

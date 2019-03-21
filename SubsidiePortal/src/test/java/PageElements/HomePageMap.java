@@ -25,5 +25,11 @@ public class HomePageMap extends BasePageMap {
     @FindBy(how = How.CSS,using = "span.user-avatar-link>a>span.panel-notifications-count")
     public static WebElement AvatarNotifications ;
 
+    @FindBy(how = How.CSS,using = "a[id*='_ProductNavigationUserPersonalBarPortlet_sidenavUserToggle']")
+    public static WebElement LoggedInUserNameLink ;
+
+    @FindBy(how = How.CSS,using = "a[href=\"/c/portal/logout\"]")
+    public static WebElement LogOutLink ;
+
 
 }

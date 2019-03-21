@@ -17,10 +17,10 @@ public class Helpers {
 
     //private static WebDriver webDriver = DriverFactory.getDriver();
 
-    public static void WaitTillUrlMatch(WebDriver webDriver,int timeInSec, String expectedRelativeUrl)
+    public static void WaitTillUrlMatch(WebDriver webDriver,int timeInSec, String expectedUrl)
     {
         WebDriverWait wait = new WebDriverWait(webDriver, timeInSec);
-        wait.until(ExpectedConditions.urlMatches(data.getSubsidieBaseUrl()+expectedRelativeUrl));
+        wait.until(ExpectedConditions.urlMatches(expectedUrl));
     }
     public static void WaitTillSubsidieUrlMatch(WebDriver webDriver,int timeInSec,String expectedRelativeUrl)
     {

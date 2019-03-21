@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class PropertyReader {
 
-    Properties properties;
+    static Properties properties;
 
     InputStream inputStream = null;
 
@@ -27,7 +27,7 @@ public class PropertyReader {
         }
     }
 
-    public String readProperty(String key) {
+    public static String readProperty(String key) {
         return properties.getProperty(key);
     }
 
@@ -37,32 +37,34 @@ public class PropertyReader {
         return readProperty("SubsidieBaseURL");
     }
 
-    public String getBrowser () {
+    public static String getBrowser () {
         return readProperty("browser");
     }
-    public Boolean IsChromeHeadless () {
+    public static Boolean IsChromeHeadless () {
         return Boolean.parseBoolean(readProperty("chromeHeadless"));
     }
-    public String getChromeDriverPath () {
+    public static String getChromeDriverPath () {
         return System.getProperty("user.dir")+readProperty("chromeDriverpath");
     }
-    public String getfirefoxDriverPath () {
+    public static String getfirefoxDriverPath () {
         return System.getProperty("user.dir")+readProperty("firefoxDriverpath");
     }
 
-    public String getScreenSize () {
+    public static String getScreenSize () {
         return readProperty("screenSize");
     }
-    public String getScreenSizeHeight () {
+    public static String getScreenSizeHeight () {
         return readProperty("screenSizeHeight");
     }
-    public String getScreenSizeWidth () {
+    public static String getScreenSizeWidth () {
         return readProperty("screenSizeWidth");
     }
 
-    public String getScreenShotsLocation () {
+    public static String getScreenShotsLocation () {
         return readProperty( "screenShotsLocation");}
-
+    public static String getCsvDataFile () {
+        return readProperty("csvFilepath");
+    }
 
 
 }

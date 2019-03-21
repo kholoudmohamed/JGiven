@@ -5,6 +5,7 @@ import Actions.ThenSomeOutcome;
 import Actions.WhenSomeAction;
 import Utilities.PropertyReader;
 import com.tngtech.jgiven.junit5.ScenarioTest;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -65,8 +66,8 @@ public class BaseTest extends ScenarioTest<GivenSomeState, WhenSomeAction, ThenS
 
     }
 
-    @AfterEach
-    public void TearDown()
+    @AfterAll
+    public static void TearDown()
     {
         webDriver.quit();
 

@@ -22,4 +22,31 @@ public class LoginPageMap extends  BasePageMap{
     public static WebElement LoginBtn ;
 
 
+    //Temp selectors
+    @FindBy(how = How.ID,using = "_com_liferay_login_web_portlet_LoginPortlet_login")
+    public static WebElement Username1 ;
+
+    @FindBy(how = How.ID,using = "_com_liferay_login_web_portlet_LoginPortlet_password")
+    public static WebElement Password1 ;
+
+    @FindBy(how = How.CSS,using = "button[id*='_login_web_portlet_LoginPortlet_']")
+    public static WebElement LoginBtn1;
+
+    @FindBy(how = How.CSS,using = "button.btn.btn-primary.btn-default")
+    public static WebElement AgreeBtn;
+
+    // Change password page fields
+    @FindBy(how = How.ID,using = "password1")
+    public static WebElement ChangePassword_Password ;
+
+    @FindBy(how = How.ID,using = "password2")
+    public static WebElement ChangePassword_ConfirmPassword ;
+
+    @FindBy(how = How.CSS,using = "button.btn.btn-primary.btn-default")
+    public static WebElement ChangePassword_SubmitBtn;
+
+    @FindBy(how = How.ID,using = "reminderQueryAnswer")
+    public static WebElement ChangePassword_SecurityAnswer;
+
+
 }

@@ -8,6 +8,8 @@ import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.ProvidedScenarioState;
 import org.openqa.selenium.WebDriver;
 
+import java.util.BitSet;
+
 import static TestScenarios.BaseTest.CloseDriver;
 
 public class WhenSomeAction extends Stage<WhenSomeAction> {
@@ -82,6 +84,65 @@ public class WhenSomeAction extends Stage<WhenSomeAction> {
     public WhenSomeAction user_opens_last_task() {
         WorkFlowTasksPageMethods.ClickOnLastPageLinkFromPagingPanel();
         WorkFlowTasksPageMethods.ClickOnLastTaskInTheList();
+        return self();
+    }
+
+
+    //Temp methods
+    public WhenSomeAction user1_login_with_Credentials_$_and_$(String username, String password) {
+        LoginPageMethods.Login1(webDriver,username,password);
+
+        return self();
+    }
+
+    public WhenSomeAction user1_navigates_to_users_and_organizations_page() {
+        UsersAndOrganizationsPageMethods.Navigate1(webDriver);
+        return self();
+    }
+
+    public WhenSomeAction click_on_add_new_button() {
+        UsersAndOrganizationsPageMethods.ClickOnAddBtn();
+        return self();
+    }
+
+    public WhenSomeAction fill_in_new_user_details_and_submit(String username, String email, String firstName, String lastName) {
+        UsersAndOrganizationsPageMethods.FillinNewUserInfoAndSubmit(username,email,firstName,lastName);
+        return self();
+    }
+
+    public WhenSomeAction open_user_with_name(String username) {
+        UsersAndOrganizationsPageMethods.OpenUserWithName(webDriver,username);
+        return self();
+    }
+
+    public WhenSomeAction click_on_password_tab_link() {
+        UsersAndOrganizationsPageMethods.ClickOnPasswordTabLink();
+        return self();
+    }
+
+    public WhenSomeAction fill_in_new_password_and_submit(String password) {
+        UsersAndOrganizationsPageMethods.FillInPasswordAndSubmit(webDriver,password);
+        return self();
+    }
+
+    public WhenSomeAction agree_on_terms_of_use() {
+        LoginPageMethods.Agree();
+        return self();
+    }
+
+    public WhenSomeAction change_password_and_submit(String password) {
+        LoginPageMethods.SetNewPasswordAndSubmit(password);
+        return self();
+    }
+
+    public WhenSomeAction answer_security_question_and_submit(String answer) {
+        LoginPageMethods.SetSecurityQuestionAnswrAndSubmit(answer);
+        return self();
+    }
+
+    public WhenSomeAction log_out() {
+        HomePageMethods.ClickOnLoggedInUsernameLink();
+        HomePageMethods.ClickOnLogoutLink();
         return self();
     }
 }
