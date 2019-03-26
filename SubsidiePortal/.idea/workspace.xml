@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0bf225-a5f9-45fb-b437-90b9c09764db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/usersList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Actions/WhenSomeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actions/WhenSomeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/HomePageMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageElements/HomePageMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/LoginPageMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageElements/LoginPageMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/UsersAndOrganizationsPageMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageElements/UsersAndOrganizationsPageMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageMethods/HomePageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageMethods/HomePageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageMethods/LoginPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageMethods/LoginPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/usersList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/usersList.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="258">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,23 +42,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/usersList.csv">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="616">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/usersList.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationRejectedScenarios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2748#2749#0" expanded="true" />
-                <element signature="e#2781#2782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Actions/WhenSomeAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="134" column="22" lean-forward="true" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+            <state relative-caret-position="2115">
+              <caret line="155" column="115" selection-start-line="155" selection-start-column="74" selection-end-line="155" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,78 +120,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3994#3995#0" expanded="true" />
-                <element signature="e#4074#4075#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/HomePageMap.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/ApplicationFormPageMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/HomePageMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/UsersAndOrganizationsPageMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/LoginPageMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/LoginPageMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -200,31 +178,32 @@
         <option value="$PROJECT_DIR$/src/test/java/PageElements/WorkFlowTasksPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/UsersAndOrganizationsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/WorkFlowTasksPageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/ApplicationFormPageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageMethods/ApplicationFormPageMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageMethods/WorkFlowTasksPageMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationRejectedScenarios.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationApprovedScenarios.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/Actions/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/SpreadsheetData.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/PropertyReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Helpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/UsersAndOrganizationsPageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/LoginPageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageMethods/LoginPageMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageElements/HomePageMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageMethods/HomePageMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/Actions/WhenSomeAction.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/usersList.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -320,7 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553182691526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553588676822" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -344,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreateUsers">
+  <component name="RunManager" selected="Gradle.SubsidiePortal [test]">
     <configuration name="SubsidiePortal [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -364,7 +343,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationRejectedScenarios.ApplicationRejectedAtVTCoordinatorReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUsers$A.SubmittedApplicationsPerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SubsidiePortal.SubsidiePortal.test" />
       <extension name="coverage">
         <pattern>
@@ -373,8 +352,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScenarios" />
-      <option name="MAIN_CLASS_NAME" value="TestScenarios.ApplicationRejectedScenarios" />
-      <option name="METHOD_NAME" value="ApplicationRejectedAtVTCoordinatorReview" />
+      <option name="MAIN_CLASS_NAME" value="TestScenarios.CreateUsers$A" />
+      <option name="METHOD_NAME" value="SubmittedApplicationsPerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -395,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUsers.CreateUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUsers.AgreementUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SubsidiePortal.SubsidiePortal.test" />
       <extension name="coverage">
         <pattern>
@@ -405,13 +384,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestScenarios" />
       <option name="MAIN_CLASS_NAME" value="TestScenarios.CreateUsers" />
-      <option name="METHOD_NAME" value="CreateUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="METHOD_NAME" value="AgreementUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyScenarios.EndToEndScenarioTillApproval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUsers.SubmittedApplicationsPerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SubsidiePortal.SubsidiePortal.test" />
       <extension name="coverage">
         <pattern>
@@ -420,8 +399,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScenarios" />
-      <option name="MAIN_CLASS_NAME" value="TestScenarios.HappyScenarios" />
-      <option name="METHOD_NAME" value="EndToEndScenarioTillApproval" />
+      <option name="MAIN_CLASS_NAME" value="TestScenarios.CreateUsers" />
+      <option name="METHOD_NAME" value="SubmittedApplicationsPerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -429,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateUsers" />
-        <item itemvalue="JUnit.CreateUsers.CreateUsers" />
-        <item itemvalue="JUnit.ApplicationRejectedScenarios.ApplicationRejectedAtVTCoordinatorReview" />
         <item itemvalue="Gradle.SubsidiePortal [test]" />
-        <item itemvalue="JUnit.HappyScenarios.EndToEndScenarioTillApproval" />
+        <item itemvalue="JUnit.CreateUsers.SubmittedApplicationsPerUser" />
+        <item itemvalue="JUnit.CreateUsers$A.SubmittedApplicationsPerUser" />
+        <item itemvalue="JUnit.CreateUsers.AgreementUsers" />
+        <item itemvalue="JUnit.CreateUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -451,35 +430,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 04m 24s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="CreateUsers_SubmittedApplicationsPerUser - 2019.03.22 at 11h 16m 30s.xml">
+      <configuration name="CreateUsers.SubmittedApplicationsPerUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 05m 50s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.22 at 11h 18m 20s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 07m 58s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.22 at 11h 21m 45s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 08m 56s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.22 at 16h 25m 28s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 10m 26s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.23 at 10h 16m 48s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 12m 51s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.23 at 10h 17m 56s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 18m 30s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.25 at 08h 16m 49s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers_CreateUsers - 2019.03.21 at 11h 19m 06s.xml">
-      <configuration name="CreateUsers.CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.25 at 08h 31m 36s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers - 2019.03.21 at 11h 19m 56s.xml">
-      <configuration name="CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.25 at 12h 33m 45s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CreateUsers - 2019.03.21 at 11h 26m 39s.xml">
-      <configuration name="CreateUsers" configurationId="JUnit" />
+    <history-entry file="SubsidiePortal_[test] - 2019.03.25 at 16h 44m 25s.xml">
+      <configuration name="SubsidiePortal [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -495,7 +474,7 @@
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,13 +483,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32775453" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39808482" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33193862" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39748955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968536" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32968536" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32831737" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914925" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914925" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32775453" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.43561643" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -610,34 +589,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/impl/DefaultStageCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/impl/Scenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/impl/ScenarioBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-junit5/0.17.1/d50d26537f40d990e3279670f3c10e407081d2b/jgiven-junit5-0.17.1-sources.jar!/com/tngtech/jgiven/junit5/JGivenExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/impl/ScenarioExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -746,26 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/impl/intercept/StepInterceptorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -784,27 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -819,93 +729,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.0/12517867d09f09a4e829b80bfc958f69d883fc11/junit-platform-commons-1.4.0-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8235">
-          <caret line="636" column="70" selection-start-line="636" selection-start-column="70" selection-end-line="636" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SpreadsheetData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1380#1390#0" expanded="true" />
-            <element signature="e#1438#1446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationRejectedScenarios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="58" selection-start-line="5" selection-start-column="42" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/SpreadsheetData.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationApprovedScenarios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -949,29 +774,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="1125">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-            <element signature="e#2781#2782#0" expanded="true" />
+            <element signature="e#3994#3995#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/LoginPageMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        <state relative-caret-position="615">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/BasePageMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -981,62 +809,170 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/LoginPageMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/usersList.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/UsersAndOrganizationsPageMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3994#3995#0" expanded="true" />
-            <element signature="e#4074#4075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageElements/HomePageMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="278">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tngtech.jgiven/jgiven-core/0.17.1/e68b100442c5e476c5fbe03cca8136b6d645e7e2/jgiven-core-0.17.1-sources.jar!/com/tngtech/jgiven/base/ScenarioTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/descriptor/TestTemplateTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="103" column="53" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/44fdbe60e0df90028edf59d9ffdf06d9fc0e43d9/junit-platform-engine-1.4.0-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="226" column="50" selection-start-line="226" selection-start-column="50" selection-end-line="226" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="430" column="47" selection-start-line="430" selection-start-column="47" selection-end-line="430" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/6c8bbb6dc869058053ba370d5f9699656e2bc93/junit-jupiter-engine-5.4.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.0/12517867d09f09a4e829b80bfc958f69d883fc11/junit-platform-commons-1.4.0-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="627" selection-start-line="627" selection-end-line="627" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/HomePageMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#InitializeTest#0;class#BaseTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/GivenSomeState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/BasePageMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Actions/WhenSomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="134" column="22" lean-forward="true" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+        <state relative-caret-position="2115">
+          <caret line="155" column="115" selection-start-line="155" selection-start-column="74" selection-end-line="155" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageMethods/ApplicationFormPageMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Actions/ThenSomeOutcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1045,11 +981,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/CreateUsers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="258">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/usersList.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestScenarios/ApplicationRejectedScenarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
         </state>
       </provider>
     </entry>

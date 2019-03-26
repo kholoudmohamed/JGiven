@@ -6,6 +6,7 @@ import TestScenarios.BaseTest;
 import Utilities.Helpers;
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.ProvidedScenarioState;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 import java.util.BitSet;
@@ -141,8 +142,18 @@ public class WhenSomeAction extends Stage<WhenSomeAction> {
     }
 
     public WhenSomeAction log_out() {
-        HomePageMethods.ClickOnLoggedInUsernameLink();
-        HomePageMethods.ClickOnLogoutLink();
+
+        HomePageMethods.Logout(webDriver);
+        return self();
+    }
+
+    public WhenSomeAction GoToMySubmissons() {
+        BasePageMethods.GoToMySubmissions(webDriver);
+        return self();
+    }
+
+    public WhenSomeAction  printMySubmittionsCount(String email) {
+        System.out.println("********************************************* Submissions count for user "+email+" is "+BasePageMethods.GetMySubmissionsCount());
         return self();
     }
 }

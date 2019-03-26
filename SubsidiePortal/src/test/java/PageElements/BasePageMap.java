@@ -48,4 +48,9 @@ public abstract class BasePageMap {
     @FindBy(how = How.CSS,using = "ul.pagination>li>a")
     public static List<WebElement> PagesLinks ;
 
+
+    // My submissions page
+    @FindBy(how = How.CSS,using = "table[data-searchcontainerid*='_UserWorkflowPortlet_workflowInstances']>tbody>tr>td:nth-child(1)>a")
+    public static List<WebElement> MySubmissionsList ;
+
 }

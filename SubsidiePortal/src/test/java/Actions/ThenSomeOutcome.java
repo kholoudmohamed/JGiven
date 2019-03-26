@@ -1,5 +1,6 @@
 package Actions;
 
+import PageMethods.BasePageMethods;
 import PageMethods.HomePageMethods;
 import PageMethods.WorkFlowTasksPageMethods;
 import TestScenarios.BaseTest;
@@ -25,6 +26,9 @@ public class ThenSomeOutcome extends Stage<ThenSomeOutcome> {
 
     @ExpectedScenarioState
     static String loggedInUserName;
+
+    //@Rule
+    //public ErrorCollector collector = new ErrorCollector();
 
     protected void AttachScreenShotToStage() {
         currentStep.addAttachment(Attachment.fromBase64(Helpers.CaptureScreenShot(webDriver), MediaType.PNG).withTitle("Screenshot"));
@@ -57,6 +61,11 @@ public class ThenSomeOutcome extends Stage<ThenSomeOutcome> {
     }
 
 
-
-
+    public ThenSomeOutcome MySubmissionsAreMoreThan(String email, @Hidden int count) {
+        int MyActualSubmissionsCount = BasePageMethods.GetMySubmissionsCount();
+        //AttachScreenShotToStage();
+        currentStep.addAttachment(Attachment.fromText("Submissions count for user "+email+" is "+MyActualSubmissionsCount, MediaType.PLAIN_TEXT_UTF_8));
+        Assertions.assertTrue(MyActualSubmissionsCount>count,"My submissions count is "+MyActualSubmissionsCount);
+        return self();
+    }
 }

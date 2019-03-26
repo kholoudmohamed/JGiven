@@ -45,8 +45,8 @@ public class HomePageMethods extends BasePageMethods{
     {
         HomePageMap.LoggedInUserNameLink.click();
     }
-    public static void ClickOnLogoutLink()
+    public static void Logout(WebDriver webDriver)
     {
-        HomePageMap.LogOutLink.click();
+        webDriver.get("https://subsidie-demo.test.worth.systems/c/portal/logout");
     }
 }

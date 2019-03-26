@@ -80,4 +80,12 @@ public class BasePageMethods {
         BasePageMap.PagesLinks.get(index).click();
         System.out.println(index);
     }
+
+    public static void GoToMySubmissions(WebDriver webDriver) {
+        webDriver.get("https://subsidie-demo.test.worth.systems/nl/group/control_panel/manage?p_p_id=com_liferay_portal_workflow_web_internal_portlet_UserWorkflowPortlet");
+        Helpers.waitForLoad(webDriver);
+    }
+    public static int GetMySubmissionsCount() {
+        return BasePageMap.MySubmissionsList.size();
+    }
 }
