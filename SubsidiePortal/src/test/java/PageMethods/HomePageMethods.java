@@ -49,4 +49,15 @@ public class HomePageMethods extends BasePageMethods{
     {
         webDriver.get("https://subsidie-demo.test.worth.systems/c/portal/logout");
     }
+
+
+    public static void NavigateToAtosEnvironmentMainSiteLogin(WebDriver webDriver)
+    {
+        webDriver.get("https://acc-ls1.mfaservices.nl/c/portal/login");
+    }
+    public static void NavigateToAtosEnvironmentMainSiteLoginPage(WebDriver webDriver)
+    {
+        webDriver.get("https://acc-ls1.mfaservices.nl/login");
+    }
+
 }

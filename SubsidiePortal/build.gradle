@@ -52,6 +52,12 @@ test{
 
 test{
     useJUnitPlatform{
+        includeTags 'CreateNewUsers'
+    }
+
+}
+test{
+    useJUnitPlatform{
         includeTags 'RunAfterPerformance'
     }
 

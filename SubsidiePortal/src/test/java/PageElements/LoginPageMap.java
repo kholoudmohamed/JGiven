@@ -48,5 +48,14 @@ public class LoginPageMap extends  BasePageMap{
     @FindBy(how = How.ID,using = "reminderQueryAnswer")
     public static WebElement ChangePassword_SecurityAnswer;
 
+    // Microsoft login
+    @FindBy(how = How.CSS,using = "input[type='email']")
+    public static WebElement Microsoft_email;
+
+    @FindBy(how = How.CSS,using = "input[type='password']")
+    public static WebElement Microsoft_password;
+    @FindBy(how = How.CSS,using = "input[type='submit']")
+    public static WebElement Microsoft_submitBtn;
+
 
 }

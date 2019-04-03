@@ -37,7 +37,7 @@ public class UsersAndOrganizationsPageMethods extends BasePageMethods{
 
     public static void FillinNewUserInfoAndSubmit(String userName, String emailAddress, String firstName, String lastName)
     {
-        UsersAndOrganizationsPageMap.NewUser_Username.sendKeys(userName);
+        //UsersAndOrganizationsPageMap.NewUser_Username.sendKeys(userName);
         UsersAndOrganizationsPageMap.NewUser_Email.sendKeys(emailAddress);
         UsersAndOrganizationsPageMap.NewUser_Firstname.sendKeys(firstName);
         UsersAndOrganizationsPageMap.NewUser_Lastname.sendKeys(lastName);
@@ -65,7 +65,7 @@ public class UsersAndOrganizationsPageMethods extends BasePageMethods{
     // Temp methods
     public static void Navigate1(WebDriver webDriver)
     {
-        webDriver.get("https://subsidie-demo.test.worth.systems/group/control_panel/manage?p_p_id=com_liferay_users_admin_web_portlet_UsersAdminPortlet&p_p_lifecycle=0&p_p_state=maximized&p_v_l_s_g_id=20126");
+        webDriver.get("https://acc-ls1.mfaservices.nl/group/control_panel/manage?p_p_id=com_liferay_users_admin_web_portlet_UsersAdminPortlet");
     }
 
     public static void ClickOnAddBtn() {

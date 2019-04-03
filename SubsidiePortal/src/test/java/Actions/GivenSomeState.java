@@ -30,4 +30,16 @@ public class GivenSomeState extends Stage<GivenSomeState> {
         return self();
     }
 
+    public GivenSomeState user_navigated_to_atos_environment_login(){
+        HomePageMethods.NavigateToAtosEnvironmentMainSiteLogin(webDriver);
+
+        return self();
+    }
+    public GivenSomeState user_navigated_to_atos_environment_loginPage(){
+        HomePageMethods.NavigateToAtosEnvironmentMainSiteLoginPage(webDriver);
+
+        return self();
+    }
+
+
 }

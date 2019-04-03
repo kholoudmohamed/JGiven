@@ -11,24 +11,25 @@ public class CreateUsers extends BaseTest {
 
     @Tag("CreateNewUsers")
     @Test
-    public void Login()
-    {
-        try {
-            given().user_navigated_to_subsidie_demo_home_page();
-            when().user_clicks_on_sign_in_link()
-                    .and().user1_login_with_Credentials_$_and_$("kmohamed@worth.systems","Test123!");
-        }
-        catch (Exception ex)
-        {
-            System.out.println("Do Nothing");
-        }
+    public void Login() throws InterruptedException {
+//        try {
+//            given().user_navigated_to_subsidie_demo_home_page();
+//            when().user_clicks_on_sign_in_link()
+//                    .and().user1_login_with_Credentials_$_and_$("kmohamed@worth.systems","Test123!");
+//        }
+//        catch (Exception ex)
+//        {
+//            System.out.println("Do Nothing");
+//        }
 
+        given().user_navigated_to_atos_environment_login();
+        when().LoginWithMicrosoftAccount();
     }
 
 
     @Tag("CreateNewUsers")
     @ParameterizedTest
-    @CsvFileSource(resources = "/usersList.csv", numLinesToSkip = 15)
+    @CsvFileSource(resources = "/usersList.csv", numLinesToSkip = 1)
     public void CreateUsers(String username, String email, String firstName, String lastName){
 
                when().user1_navigates_to_users_and_organizations_page()
@@ -39,39 +40,19 @@ public class CreateUsers extends BaseTest {
 
     }
 
-    @Tag("CreateNewUsers")
+    @Tag("Agreement")
     @ParameterizedTest
-    @CsvFileSource(resources = "/usersList.csv", numLinesToSkip = 6)
-    public void AgreementUsers(String username, String email, String firstName, String lastName){
+    @CsvFileSource(resources = "/usersList.csv", numLinesToSkip = 3)
+    public void AgreementUsers(String username, String email, String firstName, String lastName) throws InterruptedException {
 
-        given().user_navigated_to_subsidie_demo_home_page();
-        when().user_clicks_on_sign_in_link()
-                .and().user1_login_with_Credentials_$_and_$(email,"Test123!")
-                .and().agree_on_terms_of_use()
+        given().user_navigated_to_atos_environment_loginPage();
+                when().and().user1_login_with_Credentials_$_and_$(email,"Test123!")
+                //.and().agree_on_terms_of_use()
                 .and().change_password_and_submit("Test123@")
-                .and().answer_security_question_and_submit(firstName)
+
                 .and().log_out();
+        //.and().answer_security_question_and_submit(firstName)
 
     }
 
-
-
-    @Tag("RunAfterPerformance")
-    @ParameterizedTest
-    @CsvFileSource(resources = "/usersList.csv", numLinesToSkip = 1)
-    public void SubmittedApplicationsPerUser(String username, String email, String firstName, String lastName,int CurrentSubmissionsCount){
-        given().user_navigated_to_subsidie_demo_home_page();
-        when().user_clicks_on_sign_in_link()
-                .and().user1_login_with_Credentials_$_and_$(email,"Test123@")
-                .and().GoToMySubmissons();
-        then().MySubmissionsAreMoreThan(email,CurrentSubmissionsCount);
-
-    }
-    @AfterEach
-    public void After()
-    {
-        System.out.println("***************************************************************After each");
-        System.out.println("***************************************************************After each");
-        HomePageMethods.Logout(webDriver);
-    }
 }

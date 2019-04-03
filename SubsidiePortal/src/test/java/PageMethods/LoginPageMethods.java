@@ -26,7 +26,7 @@ public class LoginPageMethods extends BasePageMethods{
 
 
         // This one could be removed from here
-        Helpers.WaitTillUrlMatch(webDriver,10,"https://subsidie-demo.test.worth.systems");
+        //Helpers.WaitTillUrlMatch(webDriver,10,"https://subsidie-demo.test.worth.systems");
     }
 
     public static void Agree()
@@ -45,4 +45,14 @@ public class LoginPageMethods extends BasePageMethods{
         LoginPageMap.ChangePassword_SecurityAnswer.sendKeys(answer);
         LoginPageMap.ChangePassword_SubmitBtn.click();
     }
+
+    // Microsoft login
+    public static void Microsoft_login() throws InterruptedException {
+        LoginPageMap.Microsoft_email.sendKeys("rigoberto.castellan@minbuza.onmicrosoft.com");
+        LoginPageMap.Microsoft_submitBtn.click();
+        Thread.sleep(3000);
+        LoginPageMap.Microsoft_password.sendKeys("Robles*866");
+        LoginPageMap.Microsoft_submitBtn.click();
+    }
+
 }

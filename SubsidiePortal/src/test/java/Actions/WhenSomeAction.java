@@ -141,8 +141,9 @@ public class WhenSomeAction extends Stage<WhenSomeAction> {
         return self();
     }
 
-    public WhenSomeAction log_out() {
+    public WhenSomeAction log_out() throws InterruptedException {
 
+        Thread.sleep(2000);
         HomePageMethods.Logout(webDriver);
         return self();
     }
@@ -156,4 +157,10 @@ public class WhenSomeAction extends Stage<WhenSomeAction> {
         System.out.println("********************************************* Submissions count for user "+email+" is "+BasePageMethods.GetMySubmissionsCount());
         return self();
     }
+    // microsoft login
+    public WhenSomeAction  LoginWithMicrosoftAccount() throws InterruptedException {
+       LoginPageMethods.Microsoft_login();
+        return self();
+    }
+
 }
